@@ -1,4 +1,4 @@
-import React,{useState}from'react';import{createRoot}from'react-dom/client';import{createPortal}from'react-dom';import{ArrowLeft,ArrowRight,Check,ChevronDown,Menu,Target,Volume2,VolumeX,X,Scale,ShieldAlert,GraduationCap,Users,Globe2,Search,BarChart3,Wrench,RefreshCw}from'lucide-react';import'./styles.css';const A='/assets/';
+import React,{useState}from'react';import{createRoot}from'react-dom/client';import{createPortal}from'react-dom';import{ArrowLeft,ArrowRight,Check,ChevronDown,Menu,Target,Volume2,VolumeX,X,Scale,ShieldAlert,GraduationCap,Users,Globe2,Search,BarChart3,Wrench,RefreshCw}from'lucide-react';import'./styles.css';const A='./assets/';
 const tabs=['The weak point','What it means','Threat sources','Four-step approach','Tools','Exam lens'];
 const threats=[
 ['Regulatory Changes','05-regulatory.png','New laws or regulatory updates that directly affect project scope, process, or deliverables. Example: a new data privacy regulation taking effect midway through a project that wasn\'t designed around it.'],
